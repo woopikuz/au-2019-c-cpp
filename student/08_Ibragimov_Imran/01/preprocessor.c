@@ -6,7 +6,8 @@ void main() {
 	int n = 27;
 	int divideby = 4;
 
-#define MOD printf("%d mod %d = %d \n", n, divideby, n%divideby );
+
+#define MOD printf("%d mod %d = %u \n", n, divideby, n%divideby > 0 ? (n%divideby): -(n%divideby));  
 
 	MOD
 
