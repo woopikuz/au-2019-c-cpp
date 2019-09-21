@@ -1,0 +1,3 @@
+/home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug/CMakeFiles/main.dir
+/home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug/CMakeFiles/edit_cache.dir

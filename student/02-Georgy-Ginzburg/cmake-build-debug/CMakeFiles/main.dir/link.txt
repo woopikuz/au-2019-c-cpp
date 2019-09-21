@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/main.dir/Georgy_Ginzburg.c.o  -o main 

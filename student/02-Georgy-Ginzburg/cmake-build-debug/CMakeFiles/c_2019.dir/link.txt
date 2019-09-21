@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/c_2019.dir/main.c.o CMakeFiles/c_2019.dir/header.c.o  -o c_2019 
