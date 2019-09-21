@@ -48,10 +48,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/georgyginzburg/programming/AcadUni/c-2019
+CMAKE_SOURCE_DIR = /home/georgyginzburg/programming/au-2019-c-cpp/student/02-Georgy-Ginzburg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug
+CMAKE_BINARY_DIR = /home/georgyginzburg/programming/au-2019-c-cpp/student/02-Georgy-Ginzburg/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug/CMakeFiles /home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/georgyginzburg/programming/au-2019-c-cpp/student/02-Georgy-Ginzburg/cmake-build-debug/CMakeFiles /home/georgyginzburg/programming/au-2019-c-cpp/student/02-Georgy-Ginzburg/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/georgyginzburg/programming/AcadUni/c-2019/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/georgyginzburg/programming/au-2019-c-cpp/student/02-Georgy-Ginzburg/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named 1
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1
+.PHONY : 1
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+1/fast:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
 
-Georgy_Ginzburg.o: Georgy_Ginzburg.c.o
+01/1.o: 01/1.c.o
 
-.PHONY : Georgy_Ginzburg.o
+.PHONY : 01/1.o
 
 # target to build an object file
-Georgy_Ginzburg.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Georgy_Ginzburg.c.o
-.PHONY : Georgy_Ginzburg.c.o
+01/1.c.o:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/01/1.c.o
+.PHONY : 01/1.c.o
 
-Georgy_Ginzburg.i: Georgy_Ginzburg.c.i
+01/1.i: 01/1.c.i
 
-.PHONY : Georgy_Ginzburg.i
+.PHONY : 01/1.i
 
 # target to preprocess a source file
-Georgy_Ginzburg.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Georgy_Ginzburg.c.i
-.PHONY : Georgy_Ginzburg.c.i
+01/1.c.i:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/01/1.c.i
+.PHONY : 01/1.c.i
 
-Georgy_Ginzburg.s: Georgy_Ginzburg.c.s
+01/1.s: 01/1.c.s
 
-.PHONY : Georgy_Ginzburg.s
+.PHONY : 01/1.s
 
 # target to generate assembly for a file
-Georgy_Ginzburg.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Georgy_Ginzburg.c.s
-.PHONY : Georgy_Ginzburg.c.s
+01/1.c.s:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/01/1.c.s
+.PHONY : 01/1.c.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... 1"
 	@echo "... edit_cache"
-	@echo "... Georgy_Ginzburg.o"
-	@echo "... Georgy_Ginzburg.i"
-	@echo "... Georgy_Ginzburg.s"
+	@echo "... 01/1.o"
+	@echo "... 01/1.i"
+	@echo "... 01/1.s"
 .PHONY : help
 
 
